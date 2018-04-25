@@ -39,14 +39,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html" title="HOME"><i class="ion-paper-airplane"></i> Erbe <span>Tours and Travel</span></a>
+                <a class="navbar-brand" href="{$base_url}" title="HOME"><i class="ion-paper-airplane"></i> Erbe <span>Tours and Travel</span></a>
             </div> <!-- /.navbar-header -->
 
         <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">about</a></li>
+                    <li class="active"><a href="{$base_url}">Home</a></li>
+                    <li><a href="{$base_url}home/Homepage/about">about</a></li>
                     <li><a href="services.html">services</a></li>
                     <li><a href="contact.html">contact</a></li>
                 </ul> <!-- /.nav -->
