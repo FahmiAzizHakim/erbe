@@ -48,7 +48,7 @@
                     <li class="active"><a href="{$base_url}">Home</a></li>
                     <li><a href="{$base_url}home/Homepage/about">about</a></li>
                     <li><a href="{$base_url}home/Homepage/layanan">services</a></li>
-                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="{$base_url}home/Homepage/kontak">contact</a></li>
                 </ul> <!-- /.nav -->
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container -->
