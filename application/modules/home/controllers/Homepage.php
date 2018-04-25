@@ -23,4 +23,9 @@ class Homepage extends MY_Controller {
 	{
     	$this->layout('service', '');
 	}
+
+	public function kontak()
+	{
+    	$this->layout('kontak', '');
+	}
 }
