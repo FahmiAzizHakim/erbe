@@ -13,12 +13,14 @@ class Homepage extends MY_Controller {
 	{
     	$this->layout('index', '');
 	}
-	public function contact()
-	{
-    	$this->layout('kontak', '');
-	}
-		public function about()
+
+	public function about()
 	{
     	$this->layout('about', '');
+	}
+
+	public function layanan()
+	{
+    	$this->layout('service', '');
 	}
 }

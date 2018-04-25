@@ -47,7 +47,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="{$base_url}">Home</a></li>
                     <li><a href="{$base_url}home/Homepage/about">about</a></li>
-                    <li><a href="services.html">services</a></li>
+                    <li><a href="{$base_url}home/Homepage/layanan">services</a></li>
                     <li><a href="contact.html">contact</a></li>
                 </ul> <!-- /.nav -->
             </div><!-- /.navbar-collapse -->
