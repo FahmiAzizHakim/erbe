@@ -1,127 +1,177 @@
-<!DOCTYPE html>
-<!--[if IE 7 ]><html class="ie ie7 lte9 lte8 lte7" lang="en-US"><![endif]-->
-<!--[if IE 8]><html class="ie ie8 lte9 lte8" lang="en-US">  <![endif]-->
-<!--[if IE 9]><html class="ie ie9 lte9" lang="en-US"><![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
-<html class="noIE" lang="en-US">
-<!--<![endif]-->
+    <!DOCTYPE html>
+    <html lang="zxx" class="no-js">
     <head>
-        <!-- meta -->
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-            <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
-    <title>Erbe</title>
+        <!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Favicon-->
+        <link rel="shortcut icon" href="img/icon.jpg">
+        <!-- Author Meta -->
+        <meta name="author" content="colorlib">
+        <!-- Meta Description -->
+        <meta name="description" content="">
+        <!-- Meta Keyword -->
+        <meta name="keywords" content="">
+        <!-- meta character set -->
+        <meta charset="UTF-8">
+        <!-- Site Title -->
+        <title>Erbe Tours And Travel</title>
 
-    <link rel="stylesheet" href="{$assets_url}css/bootstrap.min.css">
-    <link rel="stylesheet" href="{$assets_url}css/ionicons.min.css">
-    <link rel="stylesheet" href="{$assets_url}css/owl.carousel.css">
-    <link rel="stylesheet" href="{$assets_url}css/owl.theme.css">
-    <link rel="stylesheet" href="{$assets_url}css/flexslider.css" type="text/css">
-    <link rel="stylesheet" href="{$assets_url}css/main.css">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-            <!--[if lt IE 9]>
-                <script src="{$assets_url}js/html5shiv.js"></script>
-                <script src="{$assets_url}js/respond.js"></script>
-            <![endif]-->
-
-            <!--[if IE 8]>
-                <script src="{$assets_url}js/selectivizr.js"></script>
-            <![endif]-->
-</head>
-<body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="{$base_url}" title="HOME"><i class="ion-paper-airplane"></i> Erbe <span>Tours and Travel</span></a>
-            </div> <!-- /.navbar-header -->
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="{$base_url}">Home</a></li>
-                    <li><a href="{$base_url}home/Homepage/about">about</a></li>
-                    <li><a href="{$base_url}home/Homepage/layanan">services</a></li>
-                    <li><a href="{$base_url}home/Homepage/kontak">contact</a></li>
-                </ul> <!-- /.nav -->
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container -->
-    </nav>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+            <!--
+            CSS
+            ============================================= -->
+            <link rel="stylesheet" href="css/linearicons.css">
+            <link rel="stylesheet" href="css/font-awesome.min.css">
+            <link rel="stylesheet" href="css/bootstrap.css">
+            <link rel="stylesheet" href="css/magnific-popup.css">
+            <link rel="stylesheet" href="css/jquery-ui.css">                
+            <link rel="stylesheet" href="css/nice-select.css">                          
+            <link rel="stylesheet" href="css/animate.min.css">
+            <link rel="stylesheet" href="css/owl.carousel.css">             
+            <link rel="stylesheet" href="css/main.css">
+        </head>
+        <body>  
+            <header id="header">
+                <div class="header-top">
+                    <div class="container">
+                    <!-- <div class="row align-items-center">
+                        <div class="col-lg-6 col-sm-6 col-6 header-top-left">
+                            <ul>
+                                <li><a href="#">Visit Us</a></li>
+                                <li><a href="#">Buy Tickets</a></li>
+                            </ul>           
+                        </div>
+                        <div class="col-lg-6 col-sm-6 col-6 header-top-right">
+                            <div class="header-social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                                <a href="#"><i class="fa fa-behance"></i></a>
+                            </div>
+                        </div>
+                    </div>   -->                            
+                    </div>
+                </div>
+                <div class="container main-menu">
+                    <div class="row align-items-center justify-content-between d-flex">
+                      <div id="logo">
+                        <a href="index.html"><img src="img/logo_erbe.png" alt="" title="" /></a>
+                      </div>
+                      <nav id="nav-menu-container">
+                        <ul class="nav-menu">
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="about.html">About</a></li>
+                          <li><a href="packages.html">Packages</a></li>
+                          <li><a href="hotels.html">Hotels</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                      </nav><!-- #nav-menu-container -->                                  
+                    </div>
+                </div>
+            </header><!-- #header -->
 
 <!-- Body / Content-->
 
             {include file=$template}}
 
-<!-- End Body / Content-->
-<div class="subscribe section-wrapper">
-        <a class="brand-logo" href="index.html" title="HOME"><i class="ion-paper-airplane"></i> Euro <span>Travel</span></a>
-        <p class="subscribe-now">
-            Subscribe to our Newsletter
-        </p>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6 col-md-offset-4 col-sm-offset-3">
-                    <div class="input-group">
-                        <input type="email" class="form-control border-radius" placeholder="Email address">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default border-radius custom-sub-btn" type="button">DONE</button>
-                        </span>
-                    </div><!-- /input-group -->
-                </div>
-            </div>
-        </div>
-                    
-    
-    
-        <ul class="social-icon">
-            <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-            <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-            <li><a href="#"><i class="ion-social-linkedin-outline"></i></a></li>
-            <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-        </ul>
-    </div> <!-- /.subscribe -->
+<!-- start footer Area -->      
+            <footer class="footer-area section-gap">
+                <div class="container">
 
-        
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-4">
-                    <div class="text-left">
-                        &copy; Copyright Erbe Tours And Travel
+                    <div class="row">
+                        <div class="col-lg-3  col-md-6 col-sm-6">
+                            <div class="single-footer-widget">
+                                <h6>About Agency</h6>
+                                <p>
+                                    The world has become so fast paced that people don’t want to stand by reading a page of information, they would much rather look at a presentation and understand the message. It has come to a point 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="single-footer-widget">
+                                <h6>Navigation Links</h6>
+                                <div class="row">
+                                    <div class="col">
+                                        <ul>
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">Feature</a></li>
+                                            <li><a href="#">Services</a></li>
+                                            <li><a href="#">Portfolio</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <ul>
+                                            <li><a href="#">Team</a></li>
+                                            <li><a href="#">Pricing</a></li>
+                                            <li><a href="#">Blog</a></li>
+                                            <li><a href="#">Contact</a></li>
+                                        </ul>
+                                    </div>                                      
+                                </div>                          
+                            </div>
+                        </div>                          
+                        <div class="col-lg-3  col-md-6 col-sm-6">
+                            <div class="single-footer-widget">
+                                <h6>Newsletter</h6>
+                                <p>
+                                    For business professionals caught between high OEM price and mediocre print and graphic output.                                 
+                                </p>                                
+                                <div id="mc_embed_signup">
+                                    <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscription relative">
+                                        <div class="input-group d-flex flex-row">
+                                            <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
+                                            <button class="btn bb-btn"><span class="lnr lnr-location"></span></button>      
+                                        </div>                                  
+                                        <div class="mt-10 info"></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3  col-md-6 col-sm-6">
+                            <div class="single-footer-widget mail-chimp">
+                                <h6 class="mb-20">InstaFeed</h6>
+                                <ul class="instafeed d-flex flex-wrap">
+                                    <li><img src="img/i1.jpg" alt=""></li>
+                                    <li><img src="img/i2.jpg" alt=""></li>
+                                    <li><img src="img/i3.jpg" alt=""></li>
+                                    <li><img src="img/i4.jpg" alt=""></li>
+                                    <li><img src="img/i5.jpg" alt=""></li>
+                                    <li><img src="img/i6.jpg" alt=""></li>
+                                    <li><img src="img/i7.jpg" alt=""></li>
+                                    <li><img src="img/i8.jpg" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>                      
+                    </div>
+
+                    <div class="row footer-bottom d-flex justify-content-between align-items-center">
+                        <p class="col-lg-8 col-sm-12 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved &nbsp; | &nbsp; Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://redecent.net" target="_blank">Redecent</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                        <div class="col-lg-4 col-sm-12 footer-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-behance"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xs-4">
-                    Theme by <a href="http://www.themewagon.com">Redecent.net</a>
-                </div>
-                <div class="col-xs-4">
-                    <div class="top">
-                        <a href="#header">
-                            <i class="ion-arrow-up-b"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>      
-    </footer>
+            </footer>
+            <!-- End footer Area -->    
 
-
-    <script src="{$assets_url}js/jquery-1.11.2.min.js"></script>
-    <script src="{$assets_url}js/bootstrap.min.js"></script>
-    <script src="{$assets_url}js/owl.carousel.min.js"></script>
-    <script src="{$assets_url}js/contact.js"></script>
-    <script src="{$assets_url}js/jquery.flexslider.js"></script>
-    <script src="{$assets_url}js/script.js"></script>
-
-
-
-
-
-
-</body>
-</html>
+            <script src="js/vendor/jquery-2.2.4.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="js/vendor/bootstrap.min.js"></script>          
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>     
+            <script src="js/jquery-ui.js"></script>                 
+            <script src="js/easing.min.js"></script>            
+            <script src="js/hoverIntent.js"></script>
+            <script src="js/superfish.min.js"></script> 
+            <script src="js/jquery.ajaxchimp.min.js"></script>
+            <script src="js/jquery.magnific-popup.min.js"></script>                     
+            <script src="js/jquery.nice-select.min.js"></script>                    
+            <script src="js/owl.carousel.min.js"></script>                          
+            <script src="js/mail-script.js"></script>   
+            <script src="js/main.js"></script>  
+        </body>
+    </html>
